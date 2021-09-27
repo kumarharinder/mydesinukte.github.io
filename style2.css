@@ -1,0 +1,47 @@
+.bgimg{
+    background-image:url(../blog/unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 900px;
+}
+.headset{
+    padding: 200px;
+    box-sizing: border-box;
+    margin-top:300px;
+
+}
+.headerset h1{
+    font-size: 70px;
+    font-weight: bolder;
+    font-family: cursive;
+    transition: 0.7ease;
+}
+.headerset h6{
+    font-size: 24px;
+    padding: 20px;
+}
+.headerset h1:hover{
+    font-size: 72px;
+    color: black;
+
+}
+.headerset h6:hover{
+    font-size: 30px;
+    color: black;
+}
+@media only screen and (max-width:800px){
+.headerset h1{
+        font-size: 30px;
+        font-weight: bolder;
+        font-family: cursive;
+        transition: 0.7ease;
+}
+}
+.navbar-nav li a{
+    transition: 0.7s ease;
+    margin: 18px;
+}
+.navbar-nav li a:hover{
+    background-color: black;
+} 
